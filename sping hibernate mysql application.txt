@@ -1,0 +1,42 @@
+1. Installed mysql database server.
+	username - admin, password - admin, default port - 3306, document port - 33060
+
+	how to start mysql server
+	cmd C:\Program Files\MySQL\MySQL Server 5.7\bin>mysqld.exe
+	
+	how to connect to mysql server, open command prompt, switch to mysql server bin.
+	>mysql -u root -p
+	enter password
+	
+	how to list all databases
+	> show databases;
+
+	how to create a new database
+	> create database employee;
+
+	how to switch to new database
+	> use employee;
+
+
+MySQL/Database/SQL interview questions
+----------------------------------------
+1Q. What is primary key, foreign key, compund key.
+2Q. What is indexing
+3. My sql is a relational database. 
+3. What is relational database and nosql/document database
+Ans - in relational database we have a fixed schema. Column name, table name, column data type everything is pre 	definined and fixed. In document database or noSql database i.e. mongodb - dosn't require a fixed schema. 	We can store any json string and write query on that json document.
+
+Hibernate questions
+-------------------
+Entity mapping - one to one, one to many
+basic explanation of hibernate, entity lifecycle or different phase of entity - detached, persistent etc
+
+REST service question
+--------------------
+Http status codes - 201,200,404,500 etc 
+
+Spring/spring boot questions
+----------------
+how to managed database properties
+how to you did transaction management
+have u used caching 
